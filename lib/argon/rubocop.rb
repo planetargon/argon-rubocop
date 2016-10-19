@@ -1,4 +1,4 @@
-require 'argon/rubocop/versoin'
+require 'argon/rubocop/version'
 
 module Argon
   module Rubocop
