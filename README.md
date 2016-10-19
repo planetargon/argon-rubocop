@@ -36,6 +36,9 @@ inherit_gem:
 
 The `rubocop.rails.yml` config file inherits from `rubocop.yml` and adds Rails-specific configuration.
 
+Use this command to have the gem analyze your codebase:
+`bundle exec rubocop`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.
