@@ -1,0 +1,19 @@
+---
+
+inherit_gem:
+  argon-rubocop: config/rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.2
+
+Style/Documentation:
+  Exclude:
+    - lib/argon/rubocop.rb
+    - lib/argon/rubocop/config.rb
+
+Style/Filename:
+  Exclude:
+    - lib/argon-rubocop.rb
+
+Style/FrozenSTringLiteralComment:
+  Enabled: false

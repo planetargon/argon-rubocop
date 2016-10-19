@@ -1,0 +1,30 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - bin/*
+
+Metrics/ClassLength:
+  Severity: refactor
+
+Metrics/LineLength:
+  Max: 100
+  Severity: refactor
+
+# Prefer Metrics/AbcSize as a metric
+Metrics/MethodLength:
+  Severity: refactor
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '*.gemspec'
+    - Gemfile
+    - Rakefile
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
