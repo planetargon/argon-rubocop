@@ -2,9 +2,9 @@ inherit_from: rubocop.yml
 
 AllCops:
   Exclude:
-    'bin/**/*'
-    'db/schema.rb'
-    'vendor/**/*'
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'vendor/**/*'
 
 Rails:
   Enabled: true
