@@ -7,7 +7,7 @@ The `argon-rubocop` gem provides RuboCop rules for Planet Argon developers based
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'argon-rubocop', github: 'planetargon/argon-rubocop', require: false
+gem 'argon-rubocop', git: 'https://github.com/planetargon/argon-rubocop', require: false
 ```
 
 And then execute:
