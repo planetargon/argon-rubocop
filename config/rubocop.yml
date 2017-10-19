@@ -1,7 +1,20 @@
+Rails:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '*.gemspec'
+    - Gemfile
+    - Rakefile
+    - db/migrate/*
+
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
     - bin/*
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'vendor/**/*'
 
 Metrics/ClassLength:
   Severity: refactor
@@ -16,12 +29,6 @@ Metrics/MethodLength:
 
 Style/ClassAndModuleChildren:
   Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - '*.gemspec'
-    - Gemfile
-    - Rakefile
 
 Style/StringLiterals:
   Enabled: false
