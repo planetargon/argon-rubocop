@@ -1,11 +1,3 @@
-inherit_from: rubocop.yml
-
-AllCops:
-  Exclude:
-    - 'bin/**/*'
-    - 'db/schema.rb'
-    - 'vendor/**/*'
-
 Rails:
   Enabled: true
 
@@ -15,3 +7,31 @@ Style/FrozenStringLiteralComment:
     - Gemfile
     - Rakefile
     - db/migrate/*
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - bin/*
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'vendor/**/*'
+
+Metrics/ClassLength:
+  Severity: refactor
+
+Metrics/LineLength:
+  Max: 100
+  Severity: refactor
+
+# Prefer Metrics/AbcSize as a metric
+Metrics/MethodLength:
+  Severity: refactor
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
