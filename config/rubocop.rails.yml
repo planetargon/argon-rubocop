@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
   - 'db/schema.rb'
+  - 'vendor/ruby/**/*'
   DisabledByDefault: true
 
 Layout/AccessModifierIndentation:
