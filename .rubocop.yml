@@ -3,8 +3,6 @@
 inherit_gem:
   argon-rubocop: config/rubocop.yml
 
-AllCops:
-  TargetRubyVersion: 2.2
 
 Style/Documentation:
   Exclude:
