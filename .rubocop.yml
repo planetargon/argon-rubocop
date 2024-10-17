@@ -9,9 +9,9 @@ Style/Documentation:
     - lib/argon/rubocop.rb
     - lib/argon/rubocop/config.rb
 
-Style/Filename:
+Naming/FileName:
   Exclude:
     - lib/argon-rubocop.rb
 
-Style/FrozenSTringLiteralComment:
+Style/FrozenStringLiteralComment:
   Enabled: false
